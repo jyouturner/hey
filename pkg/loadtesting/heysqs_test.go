@@ -26,7 +26,7 @@ func TestLoadTestFromCsvIntegration(t *testing.T) {
 				concurrentUsers: 5,
 				filename:        "mandrill100.csv",
 				ignoreFirstLine: false,
-				queueName:       "development-jerryyou-webhook-mandrill-rumi-reporting",
+				queueName:       "development-jerryyou-webhook-mandrill-app2",
 			},
 			want:    100,
 			wantErr: false,
